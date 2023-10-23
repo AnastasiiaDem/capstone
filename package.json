@@ -6,16 +6,22 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "flowbite": "^1.8.1",
+    "formik": "^2.4.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-tailwindcss-datepicker": "^1.6.6",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.3.2"
   },
   "scripts": {
-    "start": "capstone/node_modules/.bin/react-scripts start",
-    "build": "capstone/node_modules/.bin/react-scripts build",
-    "test": "capstone/node_modules/.bin/react-scripts test",
-    "eject": "capstone/node_modules/.bin/react-scripts eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.69.4",
+    "tailwindcss": "^3.3.3"
   }
 }

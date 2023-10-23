@@ -1,11 +1,15 @@
-import './App.css';
+import './App.scss';
+import Header from "./components/Header";
+import React from "react";
+import Routing from "./components/Routing";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/*<img src={logo} className="App-logo" alt="logo" />*/}
-      </header>
+      <Header />
+      <Routing/>
+      <Footer />
     </div>
   );
 }
